@@ -1,36 +1,18 @@
 
 
-/* Landing CSS start */
-#landing{
 
-
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.59),
-        rgba(0, 0, 0, 0.59)
-        
-    
-    ),
-     url(./images/landing.jpg);
-     background-repeat: no-repeat;
-     background-size: auto;
-     height: 816px;
-     width: 1518px;
-    
-
+section {
+    background-image: url(./images/landing.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#banner {
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 72px;
-    letter-spacing: -0.02em;
-    color: aqua;
-}
-
-#banner-text {
-    font-family: "Dancing Script", cursive;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 30px;
-    color: yellow;
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
